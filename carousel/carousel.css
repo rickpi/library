@@ -1,0 +1,17 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__inner {
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  transition: transform 500ms;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
